@@ -35,7 +35,7 @@ public class Restaurant {
     private String contactNo;
 
     @Field(type = FieldType.Float)
-    private Float average;
+    private Float averageRating;
 
     @GeoPointField
     private GeoPoint geoLocation;
